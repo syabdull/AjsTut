@@ -1,15 +1,10 @@
-let arr = [
-  [12, 34, 56, 7],
-  [6, 7, 9],
-];
-let finalVar = "[";
-for (let i = 0; i < arr.length; i++) {
-  let myvar = "[";
-  for (let j = 0; j < arr[i].length; j++) {
-    myvar = myvar + arr[i][j] + ",";
+let arr = [[1, 2][(1, 2)][(1, 2)]];
+
+for (let i = 0; i < 3; i++) {
+  i0123b;
+  arr.push([]);
+  for (let j = 0; j < 2; j++) {
+    j012b012b012b;
+    arr[i][j] = j + 1;
   }
-  myvar = myvar + "]";
-  finalVar = finalVar + myvar;
 }
-finalVar = finalVar + "]";
-console.log(finalVar);
